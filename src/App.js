@@ -9,36 +9,36 @@ const data={
   urunler:[
     {
       id:1,
-      name:"tesbih",
+      name:"urun",
       price:3500,
-      link:"https://www.instagram.com/esatag85/"
+      link:"https://getir.com/?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf1Wc_pzmENlRkOeAPKjSj7n80k6j4idqIYS1KfKmVjVb3Oa58sM9WBoCvVoQAvD_BwE"
     },
     {
       id:2,
-      name:"tesbih-2",
+      name:"urun-2",
       price:3500,
-      link:"https://www.instagram.com/esatag85/"
+      link:"https://getir.com/?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf1Wc_pzmENlRkOeAPKjSj7n80k6j4idqIYS1KfKmVjVb3Oa58sM9WBoCvVoQAvD_BwE"
     },
     {
       id:3,
-      name:"tesbih-3",
+      name:"urun-3",
       price:3500,
-      link:"https://www.instagram.com/esatag85/"
+      link:"https://getir.com/?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf1Wc_pzmENlRkOeAPKjSj7n80k6j4idqIYS1KfKmVjVb3Oa58sM9WBoCvVoQAvD_BwE"
     },{
       id:4,
-      name:"tesbih-4",
+      name:"urun-4",
       price:3500,
-      link:"https://www.instagram.com/esatag85/"
+      link:"https://getir.com/?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf1Wc_pzmENlRkOeAPKjSj7n80k6j4idqIYS1KfKmVjVb3Oa58sM9WBoCvVoQAvD_BwE"
     },{
       id:5,
-      name:"tesbih-5",
+      name:"urun-5",
       price:3500,
-      link:"https://www.instagram.com/esatag85/"
+      link:"https://getir.com/?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf1Wc_pzmENlRkOeAPKjSj7n80k6j4idqIYS1KfKmVjVb3Oa58sM9WBoCvVoQAvD_BwE"
     },{
       id:6,
-      name:"tesbih-6",
+      name:"urun-6",
       price:3500,
-      link:"https://www.instagram.com/esatag85/"
+      link:"https://getir.com/?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf1Wc_pzmENlRkOeAPKjSj7n80k6j4idqIYS1KfKmVjVb3Oa58sM9WBoCvVoQAvD_BwE"
     }
   ]
 }
@@ -48,10 +48,10 @@ const data={
 
 function App() {
   return (
-    <div className="App">
+    <div  className="App">
       <Announcment />
       <Navbar/>
-      <Slider/>
+      {/* <Slider/> */}
       <Cards data={data.urunler}/>
 
 

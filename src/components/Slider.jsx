@@ -37,7 +37,7 @@ const Slide= styled.div`
     align-items: center;
 `
 const ImgContainer = styled.div`
-    height: 90%;
+    height: 80%;
     flex:1;
 `
 const Image= styled.img`

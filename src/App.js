@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Header from './Component/Header'
+import Classcomp from './Component/classcomp';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <Header></Header>
+      <Classcomp/>
     </div>
   );
 }

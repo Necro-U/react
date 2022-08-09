@@ -8,7 +8,7 @@ const Header = (props) => {
       <div className="card">
         <div className="card-header d-flex justify-content-between">
           <h3 className='d-inline'>{props.name}</h3>
-          <i class="fa-solid fa-trash"></i>
+          <i className="fa-solid fa-trash"></i>
         </div>
       
       <div className="card-body">

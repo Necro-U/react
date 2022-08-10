@@ -76,7 +76,7 @@ User.propTypes = {
   surname: PropTypes.string.isRequired,
   job: PropTypes.string.isRequired,
   salary: PropTypes.string.isRequired,
-
+  id:PropTypes.string.isRequired
 }
 
 User.defaultProps = {
@@ -84,7 +84,7 @@ User.defaultProps = {
   surname:"Önder",
   job : "Web Developer",
   salary : "4500",
-
+  
 }
 
 
